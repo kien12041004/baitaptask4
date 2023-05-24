@@ -1,0 +1,505 @@
+body {
+    height: 100%;
+    background-color: white;
+}
+
+#thanhfirst {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 0.5fr 0.5fr;
+    background-color: rgb(214, 217, 219);
+    font-size: 20px;
+    border: 2px solid rgb(163, 163, 163);
+    border-top: 1px solid transparent;
+}
+
+.icon1 a {
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+}
+
+.baoemail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(163, 163, 163);
+}
+
+.baoemail a {
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.baosdt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.baosdt a {
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.fa-phone {
+    padding: 10px;
+}
+
+.fa-envelope {
+    padding: 10px;
+}
+
+.icon1 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(163, 163, 163);
+}
+
+.icontrong {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.baotieng {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(163, 163, 163);
+}
+
+.tieng>select {
+    background-color: rgb(214, 217, 219);
+    ;
+    border: none;
+}
+
+.tieng>select {
+    width: 100%;
+    height: 100%;
+}
+
+.baologin {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login>button {
+    background-color: rgb(214, 217, 219);
+    border: none;
+}
+
+.login button>a {
+    background-color: rgb(214, 217, 219);
+    border: none;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.buttonLogin a:hover {
+    color: rgb(8, 129, 129);
+    font-size: 22px;
+    transform: rotate(90deg);
+}
+
+/* 2 */
+
+#thanhsecon {
+    width: 100%;
+    height: 175px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.3fr 1fr 0.5fr;
+    background-color: white;
+    border: 1px solid rgb(163, 163, 163);
+    border-top: 1px solid transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.select {
+    width: 170px;
+    height: 55px;
+    border: 1px solid black;
+    float: right;
+    background-color: black;
+    opacity: 90%;
+}
+
+.select>button {
+    width: 170px;
+    display: flex;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dropdown-menu {
+    border: none;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    padding: 0px;
+}
+
+.dropdown-menu ul {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dropdown-item {
+    padding: 0px;
+}
+
+.ulsanpham {
+    height: 100%;
+}
+
+.ulsanpham>li {
+    border: 1px solid rgb(73, 73, 73);
+    background-color: black;
+}
+
+.dropdown-menu .ulsanpham>li>a {
+    width: 300px;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0px;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.dropdown-menu .ulsanpham>li>a:hover {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.input {
+    width: 100%;
+    height: 55px;
+    border: 1px solid black;
+    position: relative;
+    font-size: 23px;
+}
+
+.input>input {
+    width: 85%;
+    height: 100%;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+.input>button {
+    width: 10%;
+    height: 100%;
+    border: none;
+    outline: none;
+    float: right;
+    border-left: 1px solid black;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.input button>i:hover {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.cacicon {
+    width: 100%;
+}
+
+.fa-shake {
+    margin-left: 20px;
+}
+
+.bocicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.cacicon .bocicon>a {
+    color: black;
+    margin: 10px;
+    justify-content: center;
+}
+
+.cacicon>a:hover {
+    color: rgb(116, 114, 114);
+}
+
+
+/* 3 */
+#thanhthird {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(30, 30, 30);
+
+}
+
+#thanhthird .ulbao {
+    width: 100%;
+    height: 70px;
+    list-style: none;
+    margin: auto;
+}
+
+.menu ul>li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    border-left: 2px solid rgb(73, 73, 73);
+}
+
+#thanhthird ul>li>a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu .ulbao {
+    display: grid;
+    grid-template-columns: 25% 12% 12% 12% 12% 12% 12%;
+}
+
+.menu ul>.pages-btn {
+    border-right: 2px solid rgb(73, 73, 73);
+}
+
+.chon>button {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chon>button:hover {
+    color: white;
+    text-decoration: 3px solid white;
+}
+
+.chon div {
+    background-color: transparent;
+    height: 60px;
+}
+
+.chon div>.ul1 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+div>.ul1>li {
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    color: white;
+    border-left: none;
+    opacity: 90%;
+    padding: 15px;
+    border: 1px solid rgb(58, 58, 58);
+}
+
+div>.ul1>li:hover {
+    color: black;
+    border: 1px solid rgb(133, 133, 133);
+}
+
+.fa-bars {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* 4  */
+
+#diachi {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.hometest {
+    width: 97%;
+    height: 100%;
+
+}
+
+#home {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    border-bottom: 1px solid rgb(205, 204, 204);
+
+}
+
+#home h6 {
+    height: 100%;
+    font-size: 25px;
+}
+
+.home i {
+    justify-content: center;
+    margin: 10px;
+}
+
+#home a {
+    color: black;
+    text-align: center;
+}
+
+#home h6 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.fa-angle-right {
+    margin: 0 7px;
+}
+
+/* 5 */
+
+.allSanpham {
+    width: 97%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+    list-style: none;
+    row-gap: 100px;
+}
+
+.div-sp {
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.div-sp img {
+    width:320px;
+    height: 350px;
+    box-shadow: 0 1px 7px black;
+    font-size: 40px;
+}
+.div-sp h6{
+    color: rgb(200, 200, 0);
+    font-size: 22px;
+}
+.div-sp h5{
+    margin-top: 10px ;
+}
+
+.div-sp img:hover {
+    width: 330px;
+    height: 360px;
+    transition: 100ms;
+}
+
+.baoThongtin {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-sp button {
+    width: 150px;
+    display: inline-block;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.div-spn .tt1-btn {
+    margin-left: 20px;
+}
+
+.div-sp .tt1-btn i {
+    font-size: 40px;
+}
+
+.div-sp .tt1-btn>i:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.div-sp .tt1-btn>i {
+    margin-left: 185px ;
+}
+
+.baoThongtin .tt2-btn {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(99, 99, 99);
+    font-size: 25px;
+}
+
+.baoThongtin .tt2-btn:hover {
+    background-color: rgb(250, 96, 0);
+}
+
+.baoThongtin .tt2-btn>a {
+    color: white;
+    font-weight: bold;
+}
+
+.baoThongtin .tt2-btn a:hover {
+    text-decoration: none;
+    
+}
+
